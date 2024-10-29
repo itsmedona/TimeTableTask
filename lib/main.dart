@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:timetabletask/view/timetable/timetable.dart';
 
-import 'view/homescreen/homescreen.dart';
 
 void main() {
   runApp(timetableapp());
@@ -12,7 +12,7 @@ class timetableapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: Timetable(),
     );
   }
 }
