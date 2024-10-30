@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:timetabletask/view/timetable/timetable.dart';
-
+import 'package:timetabletask/view/splashscreen/splashscreen.dart';
+//import 'package:timetabletask/view/timetable/timetable.dart';
 
 void main() {
   runApp(timetableapp());
 }
+
 class timetableapp extends StatelessWidget {
   const timetableapp({super.key});
 
@@ -12,7 +13,7 @@ class timetableapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Timetable(),
+     home: MySplash(),
     );
   }
 }
